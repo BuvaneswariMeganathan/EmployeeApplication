@@ -1,0 +1,5 @@
+create table permanent_employee(emp_id int, emp_name varchar(100), emp_email varchar(100), emp_salary int, primary key(emp_id));
+
+create table part_time_employee(emp_id int, emp_name varchar(100), emp_email varchar(100), emp_salary int, primary key(emp_id));
+
+create table contract_employee(emp_id int, emp_name varchar(100), emp_email varchar(100), emp_salary int, primary key(emp_id));
